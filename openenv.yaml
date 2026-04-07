@@ -1,0 +1,13 @@
+name: email-triage-env
+description: Email classification and prioritization environment
+version: 1.0
+
+entrypoint: app:app
+
+observation_space:
+  type: object
+
+action_space:
+  type: object
+
+reward_range: [-1, 1]
