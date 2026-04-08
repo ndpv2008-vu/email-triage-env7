@@ -1,0 +1,5 @@
+# Install uv if you haven't yet
+pip install uv
+
+# Generate the lock file based on your pyproject.toml
+uv lock
